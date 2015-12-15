@@ -45,7 +45,7 @@
 
 \SweaveOpts{concordance=TRUE}
 
-\textbf{Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, cómo puede modificarse para que asimile las características únicas de éstas?}
+\textbf{¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, cómo puede modificarse para que asimile las características únicas de éstas?}
 
 Si es aplicable, a pesar de ser webapps tienen un desarrollo similar, pero el enfoque de desarrollo debe centrarse en los requisitos propios de las webapps como:\\
 - Concurrencia \\ 
