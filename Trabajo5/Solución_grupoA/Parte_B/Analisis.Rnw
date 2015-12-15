@@ -55,7 +55,7 @@ Si es aplicable, a pesar de ser webapps tienen un desarrollo similar, pero el en
 - Carga impredecible \\
 - Orientadas a los datos \\
 
-\textbf{Un breve descripción del dataste Titanic}\\
+\textbf{Un breve descripción del datast Titanic}\\
 Este conjunto de datos proporciona información sobre el destino de los pasajeros en el primer viaje fatal del trasatlántico Titanic, que se resumen de acuerdo a la situación económica, el sexo, la edad y la supervivencia.\\
 
 \textbf{Mostrar el dataset}
