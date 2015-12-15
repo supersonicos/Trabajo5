@@ -45,7 +45,7 @@
 
 \SweaveOpts{concordance=TRUE}
 
-\textbf{?Es aplicable la ingenier?a de software cuando se elaboran webapps? Si es as?, ?c?mo puede modificarse para que asimile las caracter?sticas ?nicas de ?stas?}
+\textbf{Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, cómo puede modificarse para que asimile las características únicas de éstas?}
 
 Si es aplicable, a pesar de ser webapps tienen un desarrollo similar, pero el enfoque de desarrollo debe centrarse en los requisitos propios de las webapps como:\\
 - Concurrencia \\ 
@@ -55,15 +55,15 @@ Si es aplicable, a pesar de ser webapps tienen un desarrollo similar, pero el en
 - Carga impredecible \\
 - Orientadas a los datos \\
 
-\textbf{Un breve descripci?n del dataste Titanic}\\
-Este conjunto de datos proporciona informaci?n sobre el destino de los pasajeros en el primer viaje fatal del trasatl?ntico Titanic, que se resumen de acuerdo a la situaci?n econ?mica, el sexo, la edad y la supervivencia.\\
+\textbf{Un breve descripción del dataste Titanic}\\
+Este conjunto de datos proporciona información sobre el destino de los pasajeros en el primer viaje fatal del trasatlántico Titanic, que se resumen de acuerdo a la situación económica, el sexo, la edad y la supervivencia.\\
 
 \textbf{Mostrar el dataset}
 <<eval=TRUE, results=verbatim>>=
 Titanic
 @
 
-\textbf{?Cu?l es el n?mero total de casos en el dataset?}
+\textbf{¿Cuál es el número total de casos en el dataset?}
 <<eval=TRUE, results=verbatim>>=
 sum(Titanic)
 @
