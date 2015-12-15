@@ -67,5 +67,5 @@ Titanic
 <<eval=TRUE, results=verbatim>>=
 sum(Titanic)
 @
-El número total de casos en el dataset Titanic es: 2201
+El número total de casos en el dataset Titanic es:  2201
 \end{document}
