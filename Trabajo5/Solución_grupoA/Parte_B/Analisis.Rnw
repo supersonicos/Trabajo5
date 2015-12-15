@@ -1,0 +1,71 @@
+\documentclass[6pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{anysize} 
+\usepackage[spanish]{babel}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{multirow} % para las tablas
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\marginsize{1.50cm}{1.50cm}{1.50cm}{1.50cm} 
+\begin{document}
+\centering
+\newcommand{\titulo}{ Universidad Nacional de Loja \\ \ \\ Ingeniería en Sistemas \\ \ \\}
+\newcommand{\fecha}{\today}
+\SweaveOpts{echo=true}
+
+
+\SweaveOpts{concordance=TRUE}
+\pagestyle{empty}
+
+
+\begin{center}\includegraphics[height=3cm, width=4cm]{logo-unl.jpg}\end{center}
+
+
+\Huge\bf\titulo
+\raggedright\textbf{Autores:}
+\begin{itemize}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=&id=7221}{ECINF7221}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=&id=7220}{AFINF7220}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=B&id=7326}{AFINF7326}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=E&id=7219}{ECINF7219}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=G&id=7206}{AFINF7206}
+\end{itemize}
+\raggedright\textbf{Docente:\\}
+\begin{itemize}
+\item \href{http://www.iralis.org/?q=node%2F10&paso=10&letra=O&id=4796}{ECINF4796}
+\end{itemize} 
+
+\flushleft
+\Large\rm\fecha
+
+\newpage
+
+\SweaveOpts{concordance=TRUE}
+
+\textbf{?Es aplicable la ingenier?a de software cuando se elaboran webapps? Si es as?, ?c?mo puede modificarse para que asimile las caracter?sticas ?nicas de ?stas?}
+
+Si es aplicable, a pesar de ser webapps tienen un desarrollo similar, pero el enfoque de desarrollo debe centrarse en los requisitos propios de las webapps como:\\
+- Concurrencia \\ 
+- Rendimiento \\
+- Disponibilidad \\
+- Uso intensivo de redes \\
+- Carga impredecible \\
+- Orientadas a los datos \\
+
+\textbf{Un breve descripci?n del dataste Titanic}\\
+Este conjunto de datos proporciona informaci?n sobre el destino de los pasajeros en el primer viaje fatal del trasatl?ntico Titanic, que se resumen de acuerdo a la situaci?n econ?mica, el sexo, la edad y la supervivencia.\\
+
+\textbf{Mostrar el dataset}
+<<eval=TRUE, results=verbatim>>=
+Titanic
+@
+
+\textbf{?Cu?l es el n?mero total de casos en el dataset?}
+<<eval=TRUE, results=verbatim>>=
+sum(Titanic)
+@
+El n?mero total de casos en el dataset Titanic es: 2201
+\end{document}
